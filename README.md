@@ -1,6 +1,6 @@
 # c3-ud13-modelo_relacional-team03
-Bases de dades SQL (MySQL)
-C3 UD13  Modelo Relacional #TEAM03
+Bases de dades SQL (MySQL)...
+C3 UD13  Modelo Relacional #TEAM03...
 
 4. Modelo Relacional - Conceptos Básicos.
 
