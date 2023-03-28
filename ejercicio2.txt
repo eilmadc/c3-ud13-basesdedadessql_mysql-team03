@@ -1,0 +1,8 @@
+-- EJERCICIO 2 --
+
+ELEMENTOS(nombre_ele_PK, peso_atomico, simbolo, num_atomico)
+COMPUESTOS(nombre_comp_PK)
+ELEMENTOS_COMPUESTOS(nombre_ele_PK_FK, nombre_comp_PK_FK, proporcion, estado)
+GASEOSOS(nombre_ele_PK_FK, coef_expan, temp_lic)
+LIQUIDOS(nombre_ele_PK_FK, densidad, temp_evap)
+SOLIDO(nombre_ele_PK_FK, color, olor, dureza)
