@@ -1,0 +1,7 @@
+-- EJERCICIO 3 --
+
+SUCURSAL 	( numSucursal PK , Ciudad , Activo )
+CLIENTE 	( DNI PK, Nombre , Apellidos , Direccion , Ciudad )
+CUENTA 		( numCuenta PK , Saldo )
+TRANSACCION ( numTransaccion PK , Fecha , TipoOperacion , Cantidad, numCuenta FK nn)
+CLIENTE_SUCURSAL_CUENTA ( DNI PK1 FK1 , numCuenta PK2 FK2)

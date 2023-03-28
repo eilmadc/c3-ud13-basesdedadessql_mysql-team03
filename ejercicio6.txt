@@ -1,0 +1,6 @@
+-- EJERCICIO 6 --
+
+CLIENTE		( Cod_cliente PK , ...)
+PEDIDO		( Cod_Pedido PK , Fecha_pedido , Cod_Cliente FK1 , Cod_producto FK2 , Num_unidades )
+PRODUCTO	( Cod_producto PK , Cantidad , Cod_proveedor FK1 , Unidades , Fecha_encargo )
+PROVEEDOR	( Cod_proveedor PK ) 
