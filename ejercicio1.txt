@@ -1,0 +1,2 @@
+Atletas
+	(numeroDorsal, nombre, numeroDorsalRelevoRecibe, numeroDorsalRelevoPasa)
