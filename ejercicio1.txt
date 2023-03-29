@@ -1,2 +1,3 @@
 -- EJERCICIO 1 -- 
+
 ATLETAS	(numeroDorsal PK, nombre, numeroDorsalRelevoRecibe, numeroDorsalRelevoPasa)
