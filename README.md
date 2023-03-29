@@ -8,4 +8,4 @@ C3 UD13  Modelo Relacional #TEAM03
 - Modelo Relacional de 18 ejercicios de la UD12:
 https://github.com/eilmadc/c3-ud12-diagramaser-team03
 
-- Modelo Relaciona de 8 Ejercicios con enunciado TA13
+- Modelo Relacional de 8 Ejercicios con enunciado TA13
