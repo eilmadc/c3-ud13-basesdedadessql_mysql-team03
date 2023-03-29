@@ -1,0 +1,18 @@
+Ejercicio 4:
+
+Coche
+	(CodCoche, CodParque, Modelo, Matricula, FechaCompra, FechaUltRev)
+ParqueBomberos
+	(CodParque, Nombre, Direccion, Telefono, Categoria)
+TrabajaEn
+	(CodBom, CodTurno, CodPeriodo)
+Bombero
+	(CodBom, CodParque, CodEq, Puesto, Nombre, Apellidos, FechaNac, DNI, Direccion, Telefono)
+Turno
+	(CodTurno, Descripcion)
+Periodo
+	(CodPeriodo, FechaInicio, FechaFin)
+PeticionServicio
+	(CodPeticion, CodParque, Fecha, Hora, CodEquipo, TipoServ, GradoUrgencia)
+Equipo
+	(CodEquipo, Nombre)
