@@ -1,18 +1,10 @@
-Ejercicio 4:
+-- EJERCICIO 4 -- 
 
-Coche
-	(CodCoche, CodParque, Modelo, Matricula, FechaCompra, FechaUltRev)
-ParqueBomberos
-	(CodParque, Nombre, Direccion, Telefono, Categoria)
-TrabajaEn
-	(CodBom, CodTurno, CodPeriodo)
-Bombero
-	(CodBom, CodParque, CodEq, Puesto, Nombre, Apellidos, FechaNac, DNI, Direccion, Telefono)
-Turno
-	(CodTurno, Descripcion)
-Periodo
-	(CodPeriodo, FechaInicio, FechaFin)
-PeticionServicio
-	(CodPeticion, CodParque, Fecha, Hora, CodEquipo, TipoServ, GradoUrgencia)
-Equipo
-	(CodEquipo, Nombre)
+PARQUEBOMBEROS (CodParque PK, Nombre, Direccion, Telefono, Categoria)
+EQUIPOS	(CodEquipo PK, Nombre)
+COCHES (CodCoche PK, CodParque FK, Modelo, Matricula, FechaCompra, FechaUltRev)
+BOMBEROS (CodBom PK, CodParque FK1, CodEq FK2, Puesto, Nombre, Apellidos, FechaNac, DNI, Direccion, Telefono)
+TURNOS (CodTurno PK, Descripcion)
+PERIODOS (CodPeriodo PK, FechaInicio, FechaFin)
+TRABAJAEN (CodBom PK1 FK1, CodTurno PK2 FK2, CodPeriodo PK3 FK3)
+PETICIONESSERVICIO (CodPeticion PK, CodParque FK, Fecha, Hora, CodEquipo, TipoServ, GradoUrgencia)

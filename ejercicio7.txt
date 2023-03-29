@@ -1,9 +1,6 @@
-Ejercicio 7:
+-- EJERCICIO 7 -- 
 
-Arrendatario
-	(DNI, NomFis, NomFirm, CargoFirm, Direccion, CodPostal, Localidad, Provincia, TeleFijo, TeleMovil, Fax, Actividad)
-Nave
-	(CodNave, NumCuenta, FechaAlq, FechaSinAlq, ImporteAlq, Poligono, Calle, Numero, 
+ARRENDATARIOS (DNI PK, NomFis, NomFirm, CargoFirm, Direccion, CodPostal, Localidad, Provincia, TeleFijo, TeleMovil, Fax, Actividad)
+NAVES (CodNave PK, NumCuenta, FechaAlq, FechaSinAlq, ImporteAlq, Poligono, Calle, Numero, 
 	Localidad, CodPostal, Provincia, Telefono, Caracteristicas, Foto, DatosEscritura, Alquilada, Gastos)
-Recibo
-	(NumRecibo, ImporteTotal, ImporteIVA, Pagado, Fecha, DNI)
+RECIBOS	(NumRecibo PK, ImporteTotal, ImporteIVA, Pagado, Fecha, DNI)

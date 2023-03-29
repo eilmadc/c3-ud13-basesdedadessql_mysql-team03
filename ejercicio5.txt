@@ -1,9 +1,9 @@
 -- EJERCICIO 5 --
 
-FONDOS(titulo_PK, autor, cantidad)
-LIBROS(signatura_PK, disponible, titulo_FK, autor_FK)
-SOCIOS(num_socio_PK, nombre, apellidos, telefono, fecha_cad)
-SANCIONES(num_socio_PK_FK, num_dias)
-PRESTAMOS(num_prestamo_PK, fecha_prest, signatura_FK, num_socio_FK, tipo)
-PRESTAMOS_S(num_prestamo_PK_FK)
-PRESTAMOS_E(num_prestamo_PK_FK, fecha_devol)
+FONDOS (titulo_PK, autor, cantidad)
+LIBROS (signatura_PK, disponible, titulo_FK, autor_FK)
+SOCIOS (num_socio_PK, nombre, apellidos, telefono, fecha_cad)
+SANCIONES (num_socio_PK_FK, num_dias)
+PRESTAMOS (num_prestamo_PK, fecha_prest, signatura_FK, num_socio_FK, tipo)
+PRESTAMOS_S (num_prestamo_PK_FK)
+PRESTAMOS_E (num_prestamo_PK_FK, fecha_devol)
